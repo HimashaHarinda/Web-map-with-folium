@@ -1,4 +1,5 @@
 import folium
 
-map = folium.Map(location = [6.7784955,79.96759589999999], tiles = "Mapbox Bright")
-map.save("Map1.html")
+map = folium.Map(location=[38.58,-9989],zoom_start=6,tiles="Mapbox bright")
+
+map.save("webMap.html")
